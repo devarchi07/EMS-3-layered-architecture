@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capgemini.EMS.DataAccessLayer\Capgemini.EMS.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Capgemini.EMS.Entities\Capgemini.EMS.Entities.csproj" />
+    <ProjectReference Include="..\Capgemini.EMS.Exceptions\Capgemini.EMS.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>
